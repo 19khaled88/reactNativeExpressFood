@@ -3,7 +3,8 @@ import React, { useRef, useState } from 'react'
 import Header from '../components/Header'
 import { colors, parameters, title } from '../global/style'
 import * as Animatable from 'react-native-animatable'
-import { Icon, Button, SocialIcon } from '@rneui/base'
+import { Icon, Button} from '@rneui/base'
+import { SocialIcon } from "@rneui/themed";
 
 export default function SignInScreen() {
   const [textInput2Focused, setTextInput2Focused] = useState(false)
