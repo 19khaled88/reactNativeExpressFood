@@ -1732,9 +1732,8 @@
   "resolved" "https://registry.npmjs.org/@react-native/polyfills/-/polyfills-2.0.0.tgz"
   "version" "2.0.0"
 
-"@rneui/base@^4.0.0-rc.4", "@rneui/base@4.0.0-rc.4":
-  "integrity" "sha512-X2L4UJkrMrhd35Jqdk5zf8zHXOFBu6jOo76lUlHxoiu12S/3Q0XKsB6nJHRonG3IiAE0epCux7Px98K2n66bPA=="
-  "resolved" "https://registry.npmjs.org/@rneui/base/-/base-4.0.0-rc.4.tgz"
+"@rneui/base@github:react-native-elements/react-native-elements#base":
+  "resolved" "git+ssh://git@github.com/react-native-elements/react-native-elements.git#9e77c8d79ab929be1fe802978109b4e8ea4a6329"
   "version" "4.0.0-rc.4"
   dependencies:
     "@types/react-native-vector-icons" "^6.4.10"
@@ -1744,9 +1743,8 @@
     "react-native-ratings" "^8.1.0"
     "react-native-size-matters" "^0.4.0"
 
-"@rneui/themed@^4.0.0-rc.4":
-  "integrity" "sha512-1td9Fu3lyOYueowQxnnO/8WCX9eLU3jjIiLsNNVAdI6kDyMpGegP/2h2hj8y3tjdTgKrAiL46m8iEhJFncA9AA=="
-  "resolved" "https://registry.npmjs.org/@rneui/themed/-/themed-4.0.0-rc.4.tgz"
+"@rneui/themed@github:react-native-elements/react-native-elements#themed":
+  "resolved" "git+ssh://git@github.com/react-native-elements/react-native-elements.git#d5d940348054f3aa6d7d7009e362bee1c2a89bb9"
   "version" "4.0.0-rc.4"
 
 "@segment/loosely-validate-event@^2.0.0":
@@ -8625,7 +8623,7 @@
   dependencies:
     "lodash" "^4.17.15"
 
-"react-native-safe-area-context@^3.1.9", "react-native-safe-area-context@4.2.4":
+"react-native-safe-area-context@^3.1.9 || ^4.0.0", "react-native-safe-area-context@4.2.4":
   "integrity" "sha512-OOX+W2G4YYufvryonn6Kw6YnyT8ZThkxPHZBD04NLHaZmicUaaDVII/PZ3M5fD1o5N62+T+8K4bCS5Un2ggvkA=="
   "resolved" "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-4.2.4.tgz"
   "version" "4.2.4"
